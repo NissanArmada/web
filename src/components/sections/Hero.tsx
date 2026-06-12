@@ -109,7 +109,7 @@ export function Hero() {
             <a href="#projects" className="btn btn-primary">
               Explore Projects
             </a>
-            <a href="/assets/Ethan-Collins-SWE-ML-Resume.pdf" download className="btn btn-outline">
+            <a href={`${import.meta.env.BASE_URL}assets/Ethan-Collins-SWE-ML-Resume.pdf`} download className="btn btn-outline">
               Download Resume
             </a>
             <a href="#contact" className="btn btn-outline" style={{ border: "none" }}>

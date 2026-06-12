@@ -59,7 +59,7 @@ export function About() {
             </div>
 
             <div style={{ marginTop: "2rem" }}>
-              <a href="/assets/Ethan-Collins-SWE-ML-Resume.pdf" download className="btn btn-outline">
+              <a href={`${import.meta.env.BASE_URL}assets/Ethan-Collins-SWE-ML-Resume.pdf`} download className="btn btn-outline">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" style={{ width: "18px", height: "18px", marginRight: "8px", display: "inline-block", verticalAlign: "middle" }}>
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                 </svg>

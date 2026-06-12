@@ -120,7 +120,7 @@ export function Projects() {
                 <div className="project-visual-glow"></div>
                 {project.image ? (
                   <img 
-                    src={project.image} 
+                    src={project.image.startsWith('/') ? `${import.meta.env.BASE_URL}${project.image.slice(1)}` : project.image} 
                     alt={project.title} 
                     style={{ width: "100%", height: "100%", objectFit: "cover" }} 
                   />
